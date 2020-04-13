@@ -25,10 +25,6 @@ function GetPtlsIndent()
     let ind -= &sw
   endif
 
-  if getline(v:lnum) == ''
-    let ind -= &sw
-  endif
-
   return ind
 endfunction
 
